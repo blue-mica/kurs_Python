@@ -5,7 +5,7 @@ print(wynik)
 
 print(f"a = {a} , b = {b}")
 
-liczba_a = round(45.634324)
+liczba_a = round(45.534324)
 
 print(liczba_a)
 print(round(45.634324))
