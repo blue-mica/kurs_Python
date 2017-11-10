@@ -1,13 +1,13 @@
 # oblicz czy rok jest przestępny
 
-# podzielny przez 4, nie podzielny 100 ale podzielny przez 400
+# (podzielny przez 4, nie podzielny 100) lub podzielny przez 400
 
 # rok = input("Podaj rok: \n")
 # rok = int(rok)
 
 rok = int(input("Podaj rok. \n"))
 
-# if not rok.isdigit():
+#if not rok.isdigit():
 #         print("Musza być tylko cyfy")
 #         exit()
 
