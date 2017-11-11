@@ -27,6 +27,7 @@ elif jednostka == "F":
     print(f"Temperatura w {typ} to " + str(temp_C_out) + " stopni")
 
 
+#Wersja prostsza
 #
 # temperatura_C = "35C"
 # temperatura_F = "100F"

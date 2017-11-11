@@ -34,8 +34,4 @@ nowe_zdanie = zdanie_wejsciowe[:1] + chr(114) + chr(101) + zdanie_wejsciowe[7] +
 + chr(114) + chr(d) + chr(z) + chr(i) + zdanie_wejsciowe[22] + chr(j) + zdanie_wejsciowe[3] + chr(b) + zdanie_wejsciowe[8]\
 + zdanie_wejsciowe[7] + chr(s) + zdanie_wejsciowe[22] + chr(r) + chr(y)
 
-
 print(nowe_zdanie)
-#zdanie_wejsciowe[2]
-# ostatnie_slowo = nowe_slowo + litera_t
-# print(ostatnie_slowo)

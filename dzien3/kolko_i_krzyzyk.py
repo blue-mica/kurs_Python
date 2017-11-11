@@ -14,9 +14,6 @@ slowo = slowo.upper()
 wygrana_X = "XXX"
 wygrana_O = "OOO"
 
-# print(slowo.count('X'))
-# print(slowo.find('X'))
-
 if (wygrana_O in slowo[0:3]) or (wygrana_O in slowo[3:6]) or (wygrana_O in slowo[6:9]):
     print("Wygrało O ! :)")
 
