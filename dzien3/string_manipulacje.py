@@ -19,17 +19,10 @@ b = ord('b')
 d = ord('d')
 z = ord('z')
 i = ord('i')
-r =ord('r')
-#
-# ascii_code_r = 114
-# ascii_code_t = 116
+r = ord('r')
 
-
-# litera_a = chr(ascii_code_a)
-# litera_t = chr(ascii_code_t)
-#
 nowe_zdanie = zdanie_wejsciowe[:1] + chr(114) + chr(101) + zdanie_wejsciowe[7] + ' ' + chr(119) + zdanie_wejsciowe[8]\
-+ chr(108) + chr(105) + zdanie_wejsciowe[3] + chr(p) + chr(s) + chr(y) + chr(przecinek)+ zdanie_wejsciowe[3]\
++ chr(108) + chr(105) + zdanie_wejsciowe[3] + chr(p) + chr(s) + chr(y) + chr(przecinek) + zdanie_wejsciowe[3]\
 + zdanie_wejsciowe[2] + zdanie_wejsciowe[3] + chr(n) + zdanie_wejsciowe[10] + chr(j) + chr(b) + zdanie_wejsciowe[10]\
 + chr(114) + chr(d) + chr(z) + chr(i) + zdanie_wejsciowe[22] + chr(j) + zdanie_wejsciowe[3] + chr(b) + zdanie_wejsciowe[8]\
 + zdanie_wejsciowe[7] + chr(s) + zdanie_wejsciowe[22] + chr(r) + chr(y)
