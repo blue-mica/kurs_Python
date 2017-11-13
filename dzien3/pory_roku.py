@@ -28,6 +28,7 @@ if dzien_input > 31 or dzien_input < 1:
 #wiosna = "MARZEC, KWIECIEN, MAJ, CZERWIEC"
 if miesiac_input == "KWIECIEN" or miesiac_input == "MAJ" or miesiac_input == "MARZEC" and dzien_input >= 9 or miesiac_input == "CZERWIEC" and dzien_input <= 8:
     print('Wiosna')
+    exit(111)
 # if miesiac_input == "MARZEC" and dzien_input >= 9:
 #     print('Wiosna')
 # if miesiac_input == "CZERWIEC" and dzien_input <= 8:
@@ -36,6 +37,8 @@ if miesiac_input == "KWIECIEN" or miesiac_input == "MAJ" or miesiac_input == "MA
 #lato = "CZERWIEC, LIPIEC, SIERPIEN, WRZESIEN"
 if miesiac_input == "LIPIEC" or miesiac_input == "SIERPIEN" or miesiac_input == "CZERWIEC" and dzien_input >= 9 or miesiac_input == "WRZESIEN" and dzien_input <= 8:
     print("Lato")
+    exit(222)
+
 # if miesiac_input == "CZERWIEC" and dzien_input >= 9:
 #     print("Lato")
 # if miesiac_input == "WRZESIEN" and dzien_input <= 8:
@@ -44,6 +47,8 @@ if miesiac_input == "LIPIEC" or miesiac_input == "SIERPIEN" or miesiac_input == 
 #jesien = "WRZEESIEN, PAZDZIERNIK, LISTOPAD, GRUDZIEN"
 if miesiac_input == "PAZDZIERNIK" or miesiac_input == "LISTOPAD" or miesiac_input == "WRZESIEN" and dzien_input >= 9 or miesiac_input == "GRUDZIEN" and dzien_input <= 8:
     print("Jesien :/")
+    exit(333)
+
 # if miesiac_input == "WRZESIEN" and dzien_input >= 9:
 #     print("Jesien ;/")
 # if miesiac_input == "GRUDZIEN" and dzien_input <= 8:
@@ -52,6 +57,7 @@ if miesiac_input == "PAZDZIERNIK" or miesiac_input == "LISTOPAD" or miesiac_inpu
 #zima = "GRUDZIEN, STYCZEN, LUTY, MARZEC"
 if miesiac_input == "STYCZEN" or miesiac_input == "LUTY" or miesiac_input == "GRUDZIEN" and dzien_input >= 9 or miesiac_input == "MARZEC" and dzien_input < 9:
     print("Zima")
+    exit(444)
 
 # if miesiac_input == "GRUDZIEN" and dzien_input >= 9:
 #     print("Zima")
