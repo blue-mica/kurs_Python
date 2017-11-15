@@ -7,7 +7,7 @@ nparzyste = 0
 
 for liczba in zakres:
     if liczba % 2 == 0:
-        parzyste += 1
+        parzyste += 1  # parzyste=parzyste+1
     else:
         nparzyste += 1
 

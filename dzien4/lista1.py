@@ -9,3 +9,4 @@ print(len(rzeczy))
 
 rzeczy[2] = "konewka"
 print(rzeczy)
+
