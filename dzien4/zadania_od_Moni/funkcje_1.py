@@ -1,23 +1,23 @@
 # tworzenie przykładowej funkcji
-# def wypisz( liczba ):
-#     print(f"Napisales liczbe {liczba}")
-#     return
+def wypisz(liczba):
+    print(f"Napisales liczbe {liczba}")
+    return
+
+
+wypisz(10)
+wypisz(123)
+
+    # sprawdź czy podana jako parametr liczba jest parzysta
+
+def czy_parzysta( liczba ):
+    if liczba % 2 == 0:
+        print(f"Podana liczba {liczba} jest parzysta.")
+    else:
+        print(f"Podana liczba {liczba} NIE jest parzysta")
+    return
+# po funkcji musza byc DWIE wolne linijki !!!
 #
-#
-# wypisz(10)
-# wypisz(123)
-#
-#     # sprawdź czy podana jako parametr liczba jest parzysta
-#
-# def czy_parzysta( liczba ):
-#     if liczba % 2 == 0:
-#         print(f"Podana liczba {liczba} jest parzysta.")
-#     else:
-#         print(f"Podana liczba {liczba} NIE jest parzysta")
-#     return
-# # po funkcji musza byc DWIE wolne linijki !!!
-# #
-# czy_parzysta(3)
+czy_parzysta(3)
 
 
 
