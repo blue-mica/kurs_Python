@@ -15,3 +15,6 @@ francuzi = dodaj_imie("antuan")
 print(francuzi)
 rosjanie = dodaj_imie("masza")
 print(rosjanie)
+dodaj_imie("dick", anglicy)
+print(anglicy)
+
