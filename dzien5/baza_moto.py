@@ -10,10 +10,10 @@ def check_existing(mk, mod, cap):
     liste (po spacji). Lista zawiera 3 elemety poz. [0] MARKA, [1] MODEL, [2] POJ.  Porownuje te elementy do elementow
       z list podanych w parametrze. Zmienna is_in_base w przypadku nie znalezienia motocykla pozostaje nie zmieniona.
       Index_of_existing zwraca nam index znalezionego motocykla (wykorzystane poxniej przy usuwaniu go z bazy)."""
-    is_in_base = False
+
     index_of_existing = -1
     find_moto = str.upper(input("Podaj dane motocykla: MARKA MODEL POJEMNOSC: \n"))
-    # find_moto_param - lista 3 elementowa: MARKA, MODEL, POJ.
+        # find_moto_param - lista 3 elementowa: MARKA, MODEL, POJ.
     find_moto_param = find_moto.split()
     usr_make = find_moto_param[0]
     usr_mod = find_moto_param[1]
@@ -22,13 +22,13 @@ def check_existing(mk, mod, cap):
         # enumerate numeruje elementy z listy; count jest indeksem elementu z listy
         if usr_make == elem:
             if usr_mod == mod[count] and usr_cap == cap[count]:
-                is_in_base = True
+
                 index_of_existing = count
                 print(f"Motocykl {elem} {mod[count]} {cap[count]} jest w bazie. ", end=" ")
-    if not is_in_base:
+    if index_of_existing == -1:
         # not is_in_base to to samo co is_in_base == False
         print(f"Podany motocykl nie znajduje sie w bazie.", end=" ")
-    return is_in_base, index_of_existing, find_moto
+    return index_of_existing, find_moto
 
 
 def add_moto(mk, mod, cap):
@@ -36,8 +36,8 @@ def add_moto(mk, mod, cap):
     Jezli nie ma, to rozpakowuje Tuple (moto) pobrane z check_existing i dodaje elementy do list.
     Drukuje bazę z dodanym nowym wpisem uzywając do tego fikcji show_records."""
 
-    indicator, index, moto = check_existing(mk, mod, cap)
-    if indicator == True:
+    index, moto = check_existing(mk, mod, cap)
+    if index != -1:
         print("!! NIE MOŻNA GO DODAć ;) !!")
     else:
         find_moto_param = moto.split()
@@ -57,16 +57,16 @@ def del_moto(mk, mod, cap):
     (True / False),i inxex (indeks znalezionego motocykla) oraz moto (string podany przez użytkownika).
     Kasowanie elementów z wszystkich list przez odwolanie się do index. Wyświetlenie bazy po kasowaniu wywołaniem
     funkcji show_records."""
-    indicator, index, moto = check_existing(mk, mod, cap)
-    if indicator == False:
+    index, moto = check_existing(mk, mod, cap)
+    if index == -1:
         print(" Nie mozna go usunąć.")
     else:
         print(f"** USUWAM {moto} **")
         del mk[index]
         del mod[index]
         del cap[index]
-    print("Stan bazy po usunięciu.")
-    show_records(mk, mod, cap)
+        print("Stan bazy po usunięciu.")
+        show_records(mk, mod, cap)
 
 
 make = ['BMW', 'HONDA', 'SUZUKI', "HONDA"]
