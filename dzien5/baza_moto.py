@@ -12,7 +12,7 @@ def check_existing(mk, mod, cap):
       Index_of_existing zwraca nam index znalezionego motocykla (wykorzystane poxniej przy usuwaniu go z bazy)."""
     is_in_base = False
     index_of_existing = -1
-    find_moto = str.upper(input("Podaj markę  model  pojemnośc (odzielone spacją) motocykla: \n"))
+    find_moto = str.upper(input("Podaj dane motocykla: MARKA MODEL POJEMNOSC: \n"))
     # find_moto_param - lista 3 elementowa: MARKA, MODEL, POJ.
     find_moto_param = find_moto.split()
     usr_make = find_moto_param[0]
@@ -75,8 +75,8 @@ capacity = ['650', '1000', '500', '650']
 
 
 print("****************************************")
-print("     WITAJ W BAZIE MOTOCYKLI")
-
+print("*     WITAJ W BAZIE MOTOCYKLI          *")
+print("*                                      *")
 print("****************************************")
 print("Wybierz, co chesz zrobić:")
 print("A - dodanie motocykla")

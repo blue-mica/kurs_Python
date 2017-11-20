@@ -45,14 +45,24 @@
 
 
 # program usuwajacy zduplikowane wartosci w liscie (w miejscu! - tzn bez drugiej listy)
-lista_b = [10,20,30,20,10,50,60,40,80,50,40]
+# lista_b = [10,20,30,20,10,50,60,40,80,50,40]
+#
+# for wart in lista_b:
+#     if lista_b.count(wart) == 2:
+#         lista_b.remove(wart)
+# print(lista_b)
 
-for wart in lista_b:
-    if lista_b.count(wart) == 2:
-        print(wart)
 
-print(lista_b)
 
 # program sprawdza czy dwie listy maja co najmniej jeden wspolny element,
 # jesli tak wypisuje True
 
+lista_a = [12,33,30,20,10,50,60,45,80,43]
+lista_b = [80,20,31,40,15,66,50,40,10,40]
+flaga = False
+
+for a in lista_a:
+    for b in lista_b:
+        if a == b:
+            flaga = True
+print(flaga)
