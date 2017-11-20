@@ -22,11 +22,9 @@ def check_existing(mk, mod, cap):
         # enumerate numeruje elementy z listy; count jest indeksem elementu z listy
         if usr_make == elem:
             if usr_mod == mod[count] and usr_cap == cap[count]:
-
                 index_of_existing = count
                 print(f"Motocykl {elem} {mod[count]} {cap[count]} jest w bazie. ", end=" ")
     if index_of_existing == -1:
-        # not is_in_base to to samo co is_in_base == False
         print(f"Podany motocykl nie znajduje sie w bazie.", end=" ")
     return index_of_existing, find_moto
 
