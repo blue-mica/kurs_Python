@@ -2,7 +2,7 @@
 def show_records(mk, mod, cap):
     """Funkcja wymaga podania jako paramtry trzech list. Wyświetla elementy tych list o tym samym indeksie """
     for makes, models, capacitys, in zip(mk, mod, cap):
-        print(f"MARKA: {makes} | MODEL: {models}  | POJ.: {capacitys} cm3")
+        print(f"MARKA: {makes:<10} | MODEL: {models:<10}  | POJ.: {capacitys} cm3")
 
 
 def check_existing(mk, mod, cap):
@@ -23,7 +23,7 @@ def check_existing(mk, mod, cap):
         if usr_make == elem:
             if usr_mod == mod[count] and usr_cap == cap[count]:
                 index_of_existing = count
-                print(f"Motocykl {elem} {mod[count]} {cap[count]} jest w bazie. ", end=" ")
+                print(f"Motocykl {elem} {mod[count]} {cap[count]} jest w bazie. ", )
     if index_of_existing == -1:
         print(f"Podany motocykl nie znajduje sie w bazie.", end=" ")
     return index_of_existing, find_moto
@@ -72,34 +72,52 @@ model = ['F650', 'CBR', 'GS', "XL"]
 capacity = ['650', '1000', '500', '650']
 
 
-print("****************************************")
-print("*     WITAJ W BAZIE MOTOCYKLI          *")
-print("*                                      *")
-print("****************************************")
-print("Wybierz, co chesz zrobić:")
-print("A - dodanie motocykla")
-print("D - usunięcie motocykla")
-print("S - wyświetlenie bazy")
-print("E - sprawdzanie motocykl czy jest w bazie")
-print("K - podanie liczby rekordów")
+# print("****************************************")
+# print("*     WITAJ W BAZIE MOTOCYKLI          *")
+# print("*                                      *")
+# print("****************************************")
+# print("Wybierz, co chesz zrobić:")
+# print("A - dodanie motocykla")
+# print("D - usunięcie motocykla")
+# print("S - wyświetlenie bazy")
+# print("E - sprawdzanie motocykl czy jest w bazie")
+# print("K - podanie liczby rekordów")
+#
+# print("X - wyjście")
 
-print("X - wyjście")
+#user_input = str.upper(input("Wybieram: "))
 
-user_input = str.upper(input("Wybieram: "))
+user_choice = True
+while user_choice:
+    print("****************************************")
+    print("*     WITAJ W BAZIE MOTOCYKLI          *")
+    print("*                                      *")
+    print("****************************************")
+    print("Wybierz, co chesz zrobić:")
+    print("A - dodanie motocykla")
+    print("D - usunięcie motocykla")
+    print("S - wyświetlenie bazy")
+    print("E - sprawdzanie motocykl czy jest w bazie")
+    print("K - podanie liczby rekordów")
 
+    print("X - wyjście")
+    user_input = str.upper(input("Wybierz polecenie : "))
+    if user_input == "S":
+        show_records(make, model, capacity)
+    elif user_input == "A":
+        add_moto(make, model, capacity)
+    elif user_input == "K":
+        print("Liczba motocykli w bazie: %d" % len(make))
+    elif user_input == "E":
+        check_existing(make, model, capacity)
+    elif user_input == "D":
+        del_moto(make, model, capacity)
+    elif user_input == "X":
+        print("-= OPUSZCASZ BAZĘ =- Do widzenia :)")
+        exit(666)
+else:
+    user_choice = False
 
-if user_input == "S":
-    show_records(make, model, capacity)
-elif user_input == "A":
-    add_moto(make, model, capacity)
-elif user_input == "K":
-    print("Liczba motocykli w bazie: %d" % len(make))
-elif user_input == "E":
-    check_existing(make, model, capacity)
-elif user_input == "D":
-    del_moto(make, model, capacity)
-elif user_input == "X":
-    print("Do widzenia :)")
-    exit(1)
-
-
+# elif user_input == "X":
+#     print("Do widzenia :)")
+#     exit(1)
