@@ -93,7 +93,7 @@ while user_choice:
     print("*     WITAJ W BAZIE MOTOCYKLI          *")
     print("*                                      *")
     print("****************************************")
-    print("Wybierz, co chesz zrobić:")
+    print("****** DOSTĘPNE POLECENIA: *************")
     print("A - dodanie motocykla")
     print("D - usunięcie motocykla")
     print("S - wyświetlenie bazy")
