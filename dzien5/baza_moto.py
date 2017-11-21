@@ -51,8 +51,8 @@ def add_moto(mk, mod, cap):
 
 
 def del_moto(mk, mod, cap):
-    """Funkcja wywołuje najpier funkcje is_existing, zwracany przez nią Tuple przypisany jest do zmiennych indicator
-    (True / False),i inxex (indeks znalezionego motocykla) oraz moto (string podany przez użytkownika).
+    """Funkcja wywołuje najpier funkcje check_existing, zwracany przez nią index_of_existing jest przypisany do index
+     (indeks znalezionego motocykla) oraz find_moto przypisuje do moto (string podany przez użytkownika).
     Kasowanie elementów z wszystkich list przez odwolanie się do index. Wyświetlenie bazy po kasowaniu wywołaniem
     funkcji show_records."""
     index, moto = check_existing(mk, mod, cap)
