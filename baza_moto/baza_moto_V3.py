@@ -145,7 +145,7 @@ while user_choice:
     print("X - wyjście")
     user_input = str.upper(input("Wybierz polecenie : "))
     # sprawdzenie czy user wybral tylko dozwolone litery odpowiadajace poleceniom
-    if not possible_choice.__contains__(user_input):
+    if  user_input not in possible_choice:
         print("WYBIERZ DOSTEPNE POLECENIE")
     elif user_input == "S":
         new_list = file_to_list("moto_base.pickle")
