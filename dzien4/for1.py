@@ -6,4 +6,4 @@ for litera in nazwisko:
 rzeczy = ["doniczka", "kwiatek", "ziemia", "woda"]
 
 for element in rzeczy:
-    print("Hello rzeczy")
+    print("Hello rzeczy", element)
