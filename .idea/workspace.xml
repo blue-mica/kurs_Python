@@ -2,17 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77eb3dea-6540-477e-a604-2fffa26418a2" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/dzien9/fabryka2_monitorow.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/dzien9/fabryka_aut.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/dzien9/fabryka_aut2.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/dzien9/fabryka_monitorow.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/dzien9/monitor.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/dzien9/samochod.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/dzien9/silnik.py" />
-      <change beforePath="$PROJECT_DIR$/.idea/kurs_Python.iml" afterPath="$PROJECT_DIR$/.idea/kurs_Python.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dzien10/czekolada.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dzien10/czekolady.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dzien10/kot.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dzien10/producent.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dzien10/ubranie.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dzien10/zoo.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dzien10/zwierze.py" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/dzien8/odczytaj_try.py" afterPath="$PROJECT_DIR$/dzien8/odczytaj_try.py" />
+      <change beforePath="$PROJECT_DIR$/dzien9/fabryka_aut2.py" afterPath="$PROJECT_DIR$/dzien9/fabryka_aut2.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,47 +22,80 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="samochod.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dzien9/samochod.py">
+      <file leaf-file-name="czekolada.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dzien10/czekolada.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-              <folding>
-                <element signature="e#201#257#0" expanded="false" />
-                <element signature="e#292#356#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="silnik.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dzien9/silnik.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="4" column="29" lean-forward="false" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+            <state relative-caret-position="494">
+              <caret line="19" column="32" lean-forward="false" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fabryka_aut2.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dzien9/fabryka_aut2.py">
+      <file leaf-file-name="producent.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dzien10/producent.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+            <state relative-caret-position="182">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="czekolady.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dzien10/czekolady.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
               <folding>
-                <element signature="e#0#36#0" expanded="true" />
+                <element signature="e#0#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fabryka_aut.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dzien9/fabryka_aut.py">
+      <file leaf-file-name="zwierze.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dzien10/zwierze.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="120">
+              <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="kot.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dzien10/kot.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="31" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="zoo.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dzien10/zoo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ubranie.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dzien10/ubranie.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="21" column="41" lean-forward="false" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+              <folding>
+                <element signature="e#350#473#0" expanded="false" />
+                <element signature="e#631#635#0" expanded="false" />
+                <element signature="e#675#679#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -94,14 +126,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dzien5/funkcje_zad3.py" />
-        <option value="$PROJECT_DIR$/dzien5/funkcje_zad2.py" />
-        <option value="$PROJECT_DIR$/dzien5/funcje_zad3A.py" />
-        <option value="$PROJECT_DIR$/dzien4/zadania_petle.py" />
-        <option value="$PROJECT_DIR$/dzien4/zadania_listy.py" />
-        <option value="$PROJECT_DIR$/dzien5/baza_moto.py" />
-        <option value="$PROJECT_DIR$/dzien6/slowniki.py" />
-        <option value="$PROJECT_DIR$/dzien6/slowniki2.py" />
         <option value="$PROJECT_DIR$/dzien6/tekst1" />
         <option value="$PROJECT_DIR$/dzien6/pliki1.py" />
         <option value="$PROJECT_DIR$/dzien6/pliki2.py" />
@@ -145,6 +169,14 @@
         <option value="$PROJECT_DIR$/dzien9/silnik.py" />
         <option value="$PROJECT_DIR$/dzien9/samochod.py" />
         <option value="$PROJECT_DIR$/dzien9/fabryka_aut2.py" />
+        <option value="$PROJECT_DIR$/dzien10/producent.py" />
+        <option value="$PROJECT_DIR$/dzien10/czekolady.py" />
+        <option value="$PROJECT_DIR$/dzien10/zwierze.py" />
+        <option value="$PROJECT_DIR$/dzien10/kot.py" />
+        <option value="$PROJECT_DIR$/dzien10/zoo.py" />
+        <option value="$PROJECT_DIR$/dzien10/czekolada.py" />
+        <option value="$PROJECT_DIR$/dzien10/ubrania.py" />
+        <option value="$PROJECT_DIR$/dzien10/ubranie.py" />
       </list>
     </option>
   </component>
@@ -172,6 +204,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -182,13 +215,12 @@
             <path>
               <item name="kurs_Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="kurs_Python" type="462c0819:PsiDirectoryNode" />
-              <item name="dzien9" type="462c0819:PsiDirectoryNode" />
+              <item name="dzien10" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -216,38 +248,38 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.fabryka_aut2">
-    <configuration name="fabryka2_monitorow" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.ubranie">
+    <configuration name="czekolada" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dzien9" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dzien10" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="kurs_Python" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dzien9/fabryka2_monitorow.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dzien10/czekolada.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="fabryka_aut" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="czekolady" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dzien9" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dzien10" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="kurs_Python" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dzien9/fabryka_aut.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dzien10/czekolady.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -271,56 +303,56 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="fabryka_monitorow" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ubranie" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dzien9" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dzien10" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="kurs_Python" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dzien9/fabryka_monitorow.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dzien10/ubranie.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="odczytaj_try" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="zoo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dzien8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dzien10" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="kurs_Python" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dzien8/odczytaj_try.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dzien10/zoo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.odczytaj_try" />
-      <item index="1" class="java.lang.String" itemvalue="Python.fabryka_monitorow" />
-      <item index="2" class="java.lang.String" itemvalue="Python.fabryka2_monitorow" />
-      <item index="3" class="java.lang.String" itemvalue="Python.fabryka_aut" />
-      <item index="4" class="java.lang.String" itemvalue="Python.fabryka_aut2" />
+      <item index="0" class="java.lang.String" itemvalue="Python.fabryka_aut2" />
+      <item index="1" class="java.lang.String" itemvalue="Python.czekolada" />
+      <item index="2" class="java.lang.String" itemvalue="Python.czekolady" />
+      <item index="3" class="java.lang.String" itemvalue="Python.zoo" />
+      <item index="4" class="java.lang.String" itemvalue="Python.ubranie" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.fabryka_aut2" />
-        <item index="1" class="java.lang.String" itemvalue="Python.fabryka_aut" />
-        <item index="2" class="java.lang.String" itemvalue="Python.fabryka2_monitorow" />
-        <item index="3" class="java.lang.String" itemvalue="Python.fabryka_monitorow" />
-        <item index="4" class="java.lang.String" itemvalue="Python.odczytaj_try" />
+        <item index="0" class="java.lang.String" itemvalue="Python.ubranie" />
+        <item index="1" class="java.lang.String" itemvalue="Python.zoo" />
+        <item index="2" class="java.lang.String" itemvalue="Python.czekolady" />
+        <item index="3" class="java.lang.String" itemvalue="Python.czekolada" />
+        <item index="4" class="java.lang.String" itemvalue="Python.fabryka_aut2" />
       </list>
     </recent_temporary>
   </component>
@@ -527,7 +559,14 @@
       <option name="project" value="LOCAL" />
       <updated>1511897813866</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="zajecia 9">
+      <created>1512069552773</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1512069552773</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TodoView">
@@ -547,7 +586,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43295637" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2552504" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34248787" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1453958" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -590,7 +629,8 @@
     <MESSAGE value="moni baza" />
     <MESSAGE value="poprawka wg uwag Arka" />
     <MESSAGE value="zajecia 8" />
-    <option name="LAST_COMMIT_MESSAGE" value="zajecia 8" />
+    <MESSAGE value="zajecia 9" />
+    <option name="LAST_COMMIT_MESSAGE" value="zajecia 9" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -609,55 +649,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dzien7/secrets.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dzien7/listy/compr3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dzien7/listy/compr2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dzien7/petle/petla_break.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="47" lean-forward="false" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dzien7/petle/petla_else.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/samochodowa_baza/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dzien7/listy/deep_copy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="41" lean-forward="false" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dzien7/listy/shalow_copy.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -887,7 +878,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -895,7 +885,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1640">
           <caret line="82" column="19" lean-forward="false" selection-start-line="82" selection-start-column="19" selection-end-line="82" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -903,7 +892,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="890" column="6" lean-forward="false" selection-start-line="890" selection-start-column="6" selection-end-line="890" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -911,7 +899,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -919,60 +906,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="40" lean-forward="false" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#14#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dzien9/fabryka_monitorow.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dzien9/fabryka2_monitorow.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
+        <state relative-caret-position="85">
           <caret line="5" column="2" lean-forward="false" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-          <folding>
-            <element signature="e#148#175#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dzien9/monitor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="25" column="53" lean-forward="false" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dzien9/fabryka_aut.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
+        <state relative-caret-position="51">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dzien9/samochod.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-          <folding>
-            <element signature="e#201#257#0" expanded="false" />
-            <element signature="e#292#356#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dzien9/silnik.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
+        <state relative-caret-position="100">
           <caret line="4" column="29" lean-forward="false" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
           <folding />
         </state>
@@ -980,10 +935,98 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dzien9/fabryka_aut2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
-            <element signature="e#0#36#0" expanded="true" />
+            <element signature="e#0#36#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dzien9/samochod.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dzien9/fabryka_monitorow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dzien9/monitor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dzien10/czekolady.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dzien10/producent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dzien10/czekolada.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="19" column="32" lean-forward="false" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dzien10/zwierze.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dzien10/zoo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dzien10/kot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="31" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dzien10/ubranie.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="41" lean-forward="false" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+          <folding>
+            <element signature="e#350#473#0" expanded="false" />
+            <element signature="e#631#635#0" expanded="false" />
+            <element signature="e#675#679#0" expanded="false" />
           </folding>
         </state>
       </provider>
