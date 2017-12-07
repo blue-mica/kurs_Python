@@ -6,13 +6,17 @@ class Ubranie(object):
 
 
 class But(Ubranie):
-    def __init__(self, kolor, rozmiar, plec):
-        super().__init__(1, kolor, "Adidas")
+    def __init__(self, id, kolor, marka, rozmiar, plec):
+        super().__init__(id, kolor, marka) # tutaj sa zawsze parametry dziedziczone z klasy nadrzednej
         self.rozmiar = rozmiar
         self.plec = plec
 
+    def __str__(self):
+        return f"But {self.kolor} marki {self.marka}"
+
+
 class OdziezWierzchnia(Ubranie):
-    def __init__(self, id, kolor, material, marka):
+    def __init__(self, id, kolor, marka, material):
         super().__init__(id, kolor, marka)
         self.material = material
 
@@ -30,5 +34,5 @@ class Plaszcz(OdziezWierzchnia):
     pass
 
 
-bucik = Ubranie(1,"czarny", "Abibas")
+bucik = But(1,"czarny", "Nike", 45, "K")
 print(bucik)
