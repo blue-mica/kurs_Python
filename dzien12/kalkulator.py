@@ -8,6 +8,7 @@ def odejmi(a, b):
     else:
         return b - a
 
+
 def pomnoz(a, b):
     return a * b
 

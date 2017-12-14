@@ -10,6 +10,10 @@ class Czekolada(object):
         else:
             print(f"Czekolada już jest zjedzona.")
 
+    def podaj_producenta(self):
+        print(self.producent)
+
+
     def __add__(self, other):
         return self.masa + other.masa
 

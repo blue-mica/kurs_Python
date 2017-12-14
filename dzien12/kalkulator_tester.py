@@ -5,7 +5,7 @@ from dzien12.kalkulator import *
 class KalkulatorTesty(TestCase):
 
     def setUp(self):
-        self.a = 2
+        self.a = 33
         self.b = 3
 
     def test_dodaj(self):
@@ -19,7 +19,7 @@ class KalkulatorTesty(TestCase):
 
     def test_odejmij(self):
         # arrange
-        wynik_oczekiwany = self.b - self.a
+        wynik_oczekiwany = self.a - self.b
 
         #act
         wynik_rzeczywisty = odejmi(self.a, self.b)
