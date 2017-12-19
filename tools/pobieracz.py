@@ -21,8 +21,8 @@ def pobierz(link, sciezka):
 
 
 def main():
-    link = "http://www.smiley.com/sites/default/files/BRAND_SMILEY_MAIN.jpg"
-    pobierz(link, "smiley.jpg")
+    link = "http://junkee.com/wp-content/uploads/2017/11/Navy-Penis-Skywritting.jpg"
+    pobierz(link, "us_navy.jpg")
 
 if __name__ == "__main__":
     main()
