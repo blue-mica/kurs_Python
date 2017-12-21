@@ -19,5 +19,12 @@ class Face(object):
         Returns list with top left, and bottom right coordinates.
         :return: List with coordinates [x0, y0, x1, y1]
         """
-        #todo zwrocic liste wspolrzednych
+        rect = self.data['faceRectangle']
+
+        return [rect['left'],
+                rect['top'],
+                rect['left'] + rect['width'],
+                rect['top'] + rect['height']
+                ]
+
 

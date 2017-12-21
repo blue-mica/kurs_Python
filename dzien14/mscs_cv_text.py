@@ -14,9 +14,20 @@ class Text(object):
         """
         text = ''
 
-        #todo wziąc tekst ze słow z każdej linijki z każdego regionu
+        for region in self.data['regions']:
+
+            for line in region['lines']:
+
+                line_text = ''
+
+                for word in line['words']:
+                    line_text += f"{word['text']} "
+
+                text += f"{line_text}".strip()
+                text += "\n"
 
         return text
+
 
 
 

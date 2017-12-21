@@ -51,16 +51,29 @@ class SmartPicture(object):
 
         self.__prepare_target_path()
 
-        # todo w zależności czy path czy url należy przygotować header i body
+        if self.path is not None and os.path.exists(self.path):
+            self.request_header = HEADER_PIC
+
+        elif self.url is not None:
+            self.request_header = HEADER_URL
+            self.request_body = {'url': f'{self.url}'}
+
+        else:
+            print("No proper path or url provided!")
+            return
 
     def __prepare_target_path(self):
         """
         Creates comman part of target path - {target dir}\{root name}_{id}_
         Target path is being used to save json, source and described picture.
         """
-        #todo przygotować ścieżkę docelową
+        target_dir = os.path.join(os.getcwd(), TARGET_DIR)
 
-        target_dir =
+        if not os.path.exists(target_dir):
+            os.mkdir(target_dir)
+
+        self.pic_target_path = os.path.join(target_dir, ROOT_NAME)
+        self.pic_target_path += str(self.id)
 
     def analyze(self, ocr=False):
         """
@@ -72,16 +85,35 @@ class SmartPicture(object):
 
         api_url = OCR_URL if ocr else API_URL
 
-        # todo wysłać odpowiedni request
+        if self.path is not None:
+            response = self.send_picture(api_url)
+            self.__save_source_picture()
 
-        # todo zapisać jsona do odpowiedniego pola
+        elif self.url is not None:
+            response = self.send_picture_url(api_url)
+            self.__save_source_picture()
 
-        # todo spróbować pobrać wysokość zdjęcia
+        else:
+            print("No proper path or url given, cannot send request")
+            return
+
+        self.pic_info = json.loads(response.text, encoding="utf-8")
+
+        try:
+            self.height = self.pic_info['metadata']['height']
+        except KeyError:
+            pass
 
         self.__save_json_info()
 
         if ocr:
-            self.text = Text(self.pic_info)
+            self.get_ocr_txt()
+
+    def get_ocr_txt(self):
+        self.text = Text(self.pic_info)
+        target_txt = self.pic_target_path + '.txt'
+        with open(target_txt, 'w') as file:
+            file.write(self.text.text)
 
     def send_picture(self, api_url) -> requests.Response:
         """
@@ -89,7 +121,12 @@ class SmartPicture(object):
         :param: api_url: API endpoint.
         :return: Response.
         """
-        #todo wyslac request z plikiem
+        pic_bytes = open(self.path, 'rb').read()
+        response = requests.post(api_url,
+                                 data=pic_bytes,
+                                 headers=self.request_header,
+                                 params=PARAMS)
+        response.raise_for_status()
         return response
 
     def send_picture_url(self, api_url) -> requests.Response:
@@ -98,18 +135,21 @@ class SmartPicture(object):
         :param: api_url: API endpoint.
         :return: Response.
         """
-        #todo wyslac request z urlem
+        response = requests.post(api_url,
+                                 json=self.request_body,
+                                 headers=self.request_header,
+                                 params=PARAMS)
+        response.raise_for_status()
         return response
 
     def __save_json_info(self):
         """
         Saves json with received data.
         """
-        # todo przygotować ścieżkę pliku docelowego json
-        full_name =
+        full_name = self.pic_target_path + ".json"
 
-        # todo zapisać json
-
+        with open(full_name, 'w') as file:
+            json.dump(self.pic_info, file, indent=4, ensure_ascii=False)
             print(f"Saved JSON at location: {full_name}")
 
     def __save_source_picture(self):
@@ -149,7 +189,12 @@ class SmartPicture(object):
         """
         Gets recognized description.
         """
-        #todo get caption
+        captions = self.pic_info['description']['captions']
+
+        if len(captions) > 0:
+            return captions[0]['text']
+        else:
+            return "No description"
 
     @property
     def faces(self) -> list:
@@ -157,7 +202,14 @@ class SmartPicture(object):
         Gets list containing Face objects.
         :return: List of faces [Face, ...]
         """
-       #todo get face objects
+
+        if self.__faces is None:
+            self.__faces = []
+            for face_data in self.pic_info['faces']:
+                face = Face(face_data)
+                self.__faces.append(face)
+
+        return self.__faces
 
     @property
     def celebrities(self):
